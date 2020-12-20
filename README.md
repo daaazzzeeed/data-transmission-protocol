@@ -8,7 +8,7 @@ I wrote this as an 11th semester's course project. This is still far from perfec
 ### Async mode
 In this mode all devices in the network make attempts to send data to their destination. If such send request is approved device transmitts data to the next network node, otherwise data stays in device and its delay grows. In conclusion it leads to a delays that look like this:
 
-![async delays](graphs/async.png)
+![async delays](graphs/async_mode.png)
 
 ### Synced mode (Schedule)
 
@@ -23,4 +23,4 @@ This mode is designed in a way to solve the problem with the unexpected huge del
 
 This helps to make delays smaller and fully predictable:
 
-![synced delays](graphs/sync.png)
+![synced delays](graphs/sync_mode.png)
